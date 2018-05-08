@@ -1,0 +1,53 @@
+<div class="jumbotron">
+    <img src="/assets/img/burger3.png" style="height:100x; width:100px;" alt="burger-img">
+    <hr height="30px">
+    <hr>
+    <div class="row">
+        <div class="col-6">
+            <div>
+                <ul>
+                    {{#each burgers}} {{#unless devoured}}
+                    <li>
+                        <p>
+                            {{this.id}}. {{this.burger_name}}
+
+                            <button data-id="{{this.id}}" data-devour="{{devoured}}" class="devourBurger">{{#unless devoured}}Devour!{{/unless}}</button>
+                        </p>
+                    </li>
+                    {{/unless}} {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div>
+                <ul>
+                    {{#each burgers}} {{#if this.devoured}}
+                    <li>
+                        <p>
+                            {{this.id}}. {{this.burger_name}}
+
+                            <button data-id="{{id}}" data-devour="{{devoured}}" class="devourBurger">Devoured!</button>
+                        </p>
+                    </li>
+                    {{/if}} {{/each}}
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+    <hr>
+    <div class="row">
+
+
+        <div class="col-12">
+            <form id="addBurger" class="button-size">
+                <input type="text" id="burgerName" name="name">
+                <button type="submit">Add Burger</button>
+            </form>
+        </div>
+
+    </div>
+</div>

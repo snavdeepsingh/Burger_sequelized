@@ -1,0 +1,30 @@
+{
+  "name": "Burger_sequelized",
+  "version": "1.0.0",
+  "description": "A Burger Eatin' Application With Node.js/Express/MySQL/Handlebars/Bootstrap",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snavdeepsingh/Burger_sequelized.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snavdeepsingh/Burger_sequelized/issues"
+  },
+  "homepage": "https://github.com/snavdeepsingh/Burger_sequelized#readme"
+}
