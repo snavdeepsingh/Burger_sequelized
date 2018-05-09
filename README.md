@@ -1,5 +1,5 @@
 # burger
-A Burger Eatin' Application With Node.js/Express/MySQL/Handlebars/Bootstrap
+A Burger Eatin' Application With Node.js/Express/MySQL2/Handlebars/Bootstrap/sequelize
 
 ## Description
 
@@ -9,7 +9,7 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ## Demo
 
-The demo of the burger eating application can be found [here](https://desolate-temple-71437.herokuapp.com/).
+The demo of the burger eating application can be found [here](https://sleepy-stream-48668.herokuapp.com/).
 
 ## Installation
 
