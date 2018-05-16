@@ -30,3 +30,7 @@ form {
     background-color: orangered;
     text-align: center;
 }
+
+input {
+    display: block;
+  }
